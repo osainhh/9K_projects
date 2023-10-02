@@ -1,0 +1,47 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'Z:\FPGA\projects\adder\src\top.v'
+Analyzing Verilog file 'Z:\FPGA\projects\adder\src\and2.v'
+Analyzing Verilog file 'Z:\FPGA\projects\adder\src\or2.v'
+Analyzing Verilog file 'Z:\FPGA\projects\adder\src\xor.v'
+Analyzing Verilog file 'Z:\FPGA\projects\adder\src\half_adder.v'
+Analyzing Verilog file 'Z:\FPGA\projects\adder\src\full_adder.v'
+Analyzing Verilog file 'Z:\FPGA\projects\adder\src\decoder.v'
+Compiling module 'top'("Z:\FPGA\projects\adder\src\top.v":3)
+Compiling module 'half_adder'("Z:\FPGA\projects\adder\src\half_adder.v":3)
+Compiling module 'xor2'("Z:\FPGA\projects\adder\src\xor.v":3)
+Compiling module 'and2'("Z:\FPGA\projects\adder\src\and2.v":3)
+Compiling module 'full_adder'("Z:\FPGA\projects\adder\src\full_adder.v":3)
+Compiling module 'or2'("Z:\FPGA\projects\adder\src\or2.v":3)
+Compiling module 'decoder'("Z:\FPGA\projects\adder\src\decoder.v":3)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "full_adder" instantiated to "f1" is swept in optimizing("Z:\FPGA\projects\adder\src\top.v":31)
+WARN  (NL0002) : The module "half_adder" instantiated to "h1" is swept in optimizing("Z:\FPGA\projects\adder\src\full_adder.v":18)
+WARN  (NL0002) : The module "and2" instantiated to "a1" is swept in optimizing("Z:\FPGA\projects\adder\src\half_adder.v":18)
+WARN  (NL0002) : The module "xor2" instantiated to "x1" is swept in optimizing("Z:\FPGA\projects\adder\src\half_adder.v":13)
+WARN  (NL0002) : The module "half_adder" instantiated to "h2" is swept in optimizing("Z:\FPGA\projects\adder\src\full_adder.v":24)
+WARN  (NL0002) : The module "and2" instantiated to "a1" is swept in optimizing("Z:\FPGA\projects\adder\src\half_adder.v":18)
+WARN  (NL0002) : The module "xor2" instantiated to "x1" is swept in optimizing("Z:\FPGA\projects\adder\src\half_adder.v":13)
+WARN  (NL0002) : The module "or2" instantiated to "o1" is swept in optimizing("Z:\FPGA\projects\adder\src\full_adder.v":29)
+WARN  (NL0002) : The module "half_adder" instantiated to "h1" is swept in optimizing("Z:\FPGA\projects\adder\src\top.v":23)
+WARN  (NL0002) : The module "and2" instantiated to "a1" is swept in optimizing("Z:\FPGA\projects\adder\src\half_adder.v":18)
+WARN  (NL0002) : The module "xor2" instantiated to "x1" is swept in optimizing("Z:\FPGA\projects\adder\src\half_adder.v":13)
+[95%] Generate netlist file "Z:\FPGA\projects\adder\impl\gwsynthesis\adder.vg" completed
+[100%] Generate report file "Z:\FPGA\projects\adder\impl\gwsynthesis\adder_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,116 @@
+[
+ {
+  "InstFile" : "Z:/FPGA/projects/adder/src/top.v",
+  "InstLine" : 3,
+  "InstName" : "top",
+  "ModuleFile" : "Z:/FPGA/projects/adder/src/top.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "Z:/FPGA/projects/adder/src/top.v",
+    "InstLine" : 19,
+    "InstName" : "h1",
+    "ModuleFile" : "Z:/FPGA/projects/adder/src/half_adder.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "half_adder",
+    "SubInsts" : [
+     {
+      "InstFile" : "Z:/FPGA/projects/adder/src/half_adder.v",
+      "InstLine" : 10,
+      "InstName" : "x1",
+      "ModuleFile" : "Z:/FPGA/projects/adder/src/xor.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "xor2"
+     },
+     {
+      "InstFile" : "Z:/FPGA/projects/adder/src/half_adder.v",
+      "InstLine" : 15,
+      "InstName" : "a1",
+      "ModuleFile" : "Z:/FPGA/projects/adder/src/and2.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "and2"
+     }
+    ]
+   },
+   {
+    "InstFile" : "Z:/FPGA/projects/adder/src/top.v",
+    "InstLine" : 25,
+    "InstName" : "f1",
+    "ModuleFile" : "Z:/FPGA/projects/adder/src/full_adder.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "full_adder",
+    "SubInsts" : [
+     {
+      "InstFile" : "Z:/FPGA/projects/adder/src/full_adder.v",
+      "InstLine" : 14,
+      "InstName" : "h1",
+      "ModuleFile" : "Z:/FPGA/projects/adder/src/half_adder.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "half_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "Z:/FPGA/projects/adder/src/half_adder.v",
+        "InstLine" : 10,
+        "InstName" : "x1",
+        "ModuleFile" : "Z:/FPGA/projects/adder/src/xor.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "xor2"
+       },
+       {
+        "InstFile" : "Z:/FPGA/projects/adder/src/half_adder.v",
+        "InstLine" : 15,
+        "InstName" : "a1",
+        "ModuleFile" : "Z:/FPGA/projects/adder/src/and2.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "and2"
+       }
+      ]
+     },
+     {
+      "InstFile" : "Z:/FPGA/projects/adder/src/full_adder.v",
+      "InstLine" : 20,
+      "InstName" : "h2",
+      "ModuleFile" : "Z:/FPGA/projects/adder/src/half_adder.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "half_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "Z:/FPGA/projects/adder/src/half_adder.v",
+        "InstLine" : 10,
+        "InstName" : "x1",
+        "ModuleFile" : "Z:/FPGA/projects/adder/src/xor.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "xor2"
+       },
+       {
+        "InstFile" : "Z:/FPGA/projects/adder/src/half_adder.v",
+        "InstLine" : 15,
+        "InstName" : "a1",
+        "ModuleFile" : "Z:/FPGA/projects/adder/src/and2.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "and2"
+       }
+      ]
+     },
+     {
+      "InstFile" : "Z:/FPGA/projects/adder/src/full_adder.v",
+      "InstLine" : 26,
+      "InstName" : "o1",
+      "ModuleFile" : "Z:/FPGA/projects/adder/src/or2.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "or2"
+     }
+    ]
+   },
+   {
+    "InstFile" : "Z:/FPGA/projects/adder/src/top.v",
+    "InstLine" : 33,
+    "InstName" : "sd",
+    "ModuleFile" : "Z:/FPGA/projects/adder/src/decoder.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "decoder"
+   }
+  ]
+ }
+]
