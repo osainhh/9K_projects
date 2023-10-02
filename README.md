@@ -17,7 +17,7 @@ Tang Nano 9Kで作った細々したプロジェクト
 
 DIPSWの1極を1bitとして2bit+2bitをします．\
 10進数だと最大3+3になるので7セグには0~6までが表示されます．
-![2bitadder](http://github.com/osainhh/9K_projects/pic/2bitadder.jpg)
+![2bitadder](https://github.com/osainhh/9K_projects/blob/main/pic/2bitadder.jpg)
 
 
 [^1]: https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/examples/led.html
