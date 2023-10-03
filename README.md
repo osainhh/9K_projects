@@ -26,6 +26,6 @@ FPGA上で74ICシリーズの挙動を再現する．\
 - HC153 : 4チャネルマルチプレクサ
 
 HC153の再現．
-![74IC](https://github.com/osainhh/9K_projects/blob/main/pic/74153.jpg)
+![74IC](https://github.com/osainhh/9K_projects/blob/main/pic/74IC.jpg)
 
 [^1]: https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/examples/led.html
