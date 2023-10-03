@@ -19,5 +19,13 @@ DIPSWの1極を1bitとして2bit+2bitをします．\
 10進数だと最大3+3になるので7セグには0~6までが表示されます．
 ![2bitadder](https://github.com/osainhh/9K_projects/blob/main/pic/2bitadder.jpg)
 
+### 74IC
+FPGA上で74ICシリーズの挙動を再現する．\
+なぜかと言えば某4bitCPUをFPGA上に作りたいので．
+- HC161 : 4ビットバイナリカウンタ
+- HC153 : 4チャネルマルチプレクサ
+
+HC153の再現．
+![74IC](https://github.com/osainhh/9K_projects/blob/main/pic/74153.jpg)
 
 [^1]: https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/examples/led.html
