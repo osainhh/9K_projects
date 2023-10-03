@@ -1,11 +1,11 @@
 # 9K_projects
 Tang Nano 9Kで作った細々したプロジェクト
 
-### led
+## led
 公式チュートリアル[^1]を実行する\
 オンボードLEDがシフトしていく
 
-### adder (2bit)
+## adder (2bit)
 1桁7セグ表示の2bit加算器
 - or2.v : 2入力OR回路
 - and2.v : 2入力AND回路
@@ -19,7 +19,7 @@ DIPSWの1極を1bitとして2bit+2bitをします．\
 10進数だと最大3+3になるので7セグには0~6までが表示されます．
 ![2bitadder](https://github.com/osainhh/9K_projects/blob/main/pic/2bitadder.jpg)
 
-### 74IC
+## 74IC
 FPGA上で74ICシリーズの挙動を再現する．\
 なぜかと言えば某4bitCPUをFPGA上に作りたいので．
 - HC161 : 4ビットバイナリカウンタ
